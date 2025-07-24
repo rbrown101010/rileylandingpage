@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise-Grade Security - Docker MCP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.8;
+            color: #1a1a1a;
+            background: #ffffff;
+            min-height: 100vh;
+            font-size: 18px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .back-link {
+            color: #4a4a4a;
+            text-decoration: underline;
+            text-decoration-color: transparent;
+            transition: all 0.3s ease;
+            margin-bottom: 3rem;
+            display: inline-block;
+        }
+
+        .back-link:hover {
+            text-decoration-color: #1a1a1a;
+            color: #1a1a1a;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 400;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            color: #4a4a4a;
+        }
+
+        .highlight {
+            background: #f8f8f8;
+            padding: 1rem;
+            border-left: 3px solid #1a1a1a;
+            margin: 2rem 0;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Docker MCP</a>
+        
+        <h1>Enterprise-Grade Security</h1>
+        
+        <p>Most MCP tools today run with dangerous levels of host access. When you execute `npx` or `uvx` commands, you're essentially giving unknown code full system privileges.</p>
+        
+        <div class="highlight">
+            "Containerization isn't just about portability—it's about creating secure boundaries between your AI agents and your critical systems."
+        </div>
+        
+        <p>Docker MCP changes this paradigm completely. Every MCP server runs in its own isolated container with precisely defined permissions. Your AI agents can access exactly what they need, nothing more.</p>
+        
+        <p>Container images can be scanned for vulnerabilities, signed for authenticity, and tracked through centralized registries. This creates an auditable supply chain that enterprise security teams can trust.</p>
+        
+        <p>The result? AI agents that are powerful enough to be useful, but contained enough to be safe. This is how enterprise AI should work.</p>
+    </div>
+</body>
+</html>
